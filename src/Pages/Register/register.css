@@ -1,0 +1,60 @@
+.register{
+height:calc(100vh - 50px);
+background: linear-gradient(rgba(255,255,255,0.5),
+rgba(255,255,255,0.5)),
+ url('https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+background-size: cover;
+
+
+}
+
+.registerTitle{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.registerForm{
+    display:flex;
+    flex-direction: column;
+}
+
+.registerForm label{
+    margin:10px 0;
+}
+
+.registerForm input{
+    background-color:white;
+    padding:10px;
+    border:none;
+}
+
+.registerButton{
+    padding:10px;
+    background-color:teal;
+    color:white;
+    border:none;
+    border-radius:10px;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+.registerLoginButton{
+    top:60px;
+    right:20px;
+    position:absolute;
+    padding:10px;
+    background-color:lightcoral;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.link2{
+    text-decoration: none;
+    color:white;
+}
